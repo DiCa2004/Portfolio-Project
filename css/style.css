@@ -15,10 +15,13 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background: linear-gradient(135deg, #190c29, #3b1e4b, #190c29);
     color: #ffffff;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0px 0px;
     box-shadow: 0 2px 10px rgba(25, 12, 41, 0.2);
 }
 
@@ -207,7 +210,7 @@ main {
 
 .skills-section {
     background-color: #ffffff;
-    padding: 0 45px;
+    padding: 50px 45px;
 }
 
 .skills-section h2 {
@@ -415,14 +418,18 @@ main {
 }
 
 .navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 15px 10px;
-    background: linear-gradient(135deg, #190c29, #3b1e4b, #190c29);
+    padding: 0px 15px;
+}
+#home,
+#about,
+#skills,
+#projects,
+#education,
+#contact {
+    scroll-margin-top: 120px;
 }
 
 
