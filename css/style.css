@@ -413,3 +413,73 @@ main {
 .education-table tbody tr:hover {
     background-color: #e4cbf9;
 }
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px 10px;
+    background: linear-gradient(135deg, #190c29, #3b1e4b, #190c29);
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 14px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #b463d4;
+    color: #ffffff;
+}
+
+.contact-section {
+    background-color: #f9f4fd;
+    padding: 40px 45px;
+    margin-top: 30px;
+    text-align: center;
+    border-top: 3px solid #b325eb;
+}
+
+.contact-section h2 {
+    font-size: 27px;
+    color: #9d20d4;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 15px;
+    color: #554460;
+    margin-bottom: 12px;
+}
+
+.contact-section a {
+    color: #9d20d4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
