@@ -556,3 +556,222 @@ main {
 .send-btn:active {
     transform: translateY(0);
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 992px) {
+    header h1 {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .intro {
+        min-height: auto;
+        padding: 30px 20px;
+    }
+
+    .about-me,
+    .skills-section,
+    .projects-section,
+    .education-section,
+    .contact-section {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .hobbies,
+    .goals {
+        width: 45%;
+        margin-left: 0;
+        padding: 0 12px;
+    }
+
+    .project-card {
+        width: 45%;
+    }
+
+    .skill-card {
+        width: 44%;
+        margin: 15px 2%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    header {
+        padding-top: 12px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .navbar {
+        padding: 8px 5px;
+    }
+
+    .nav-links {
+        gap: 4px;
+    }
+
+    .nav-links a {
+        padding: 7px 8px;
+        font-size: 12px;
+    }
+
+    #home,
+    #about,
+    #skills,
+    #projects,
+    #education,
+    #contact {
+        scroll-margin-top: 150px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .intro {
+        min-height: auto;
+        margin: 10px auto 25px;
+        padding: 25px 15px;
+    }
+
+    .profile-photo {
+        width: 125px;
+        height: 125px;
+        margin: 25px auto 18px;
+    }
+
+    .intro h1 {
+        font-size: 22px;
+    }
+
+    .intro p,
+    .about-block p,
+    .contact-section p {
+        font-size: 14px;
+    }
+
+    .about-me,
+    .skills-section,
+    .projects-section,
+    .education-section,
+    .contact-section {
+        padding: 25px 15px;
+    }
+
+    .about-me {
+        min-height: auto;
+    }
+
+    .about-me h2,
+    .skills-section h2,
+    .projects-section h2,
+    .education-section h2,
+    .contact-section h2 {
+        font-size: 22px;
+        padding: 12px 15px;
+        margin-bottom: 25px;
+    }
+
+    .about-block {
+        margin-bottom: 25px;
+    }
+
+    .about-block p {
+        padding-left: 8px;
+    }
+
+    .hobbies,
+    .goals {
+        display: block;
+        width: 100%;
+        margin: 0 0 25px;
+        padding: 0;
+    }
+
+    .hobbies {
+        border-right: none;
+    }
+
+    .skills-container {
+        padding: 10px 0;
+    }
+
+    .skill-card {
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        margin: 12px auto;
+    }
+
+    .projects-section h2 {
+        margin-bottom: 25px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .project-card img {
+        height: auto;
+        max-height: 240px;
+        object-fit: cover;
+    }
+
+    .project-content {
+        padding: 16px;
+    }
+
+    .education-table {
+        min-width: 550px;
+    }
+
+    .education-table th,
+    .education-table td {
+        padding: 9px;
+        font-size: 12px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .send-btn {
+        width: 100%;
+    }
+}
