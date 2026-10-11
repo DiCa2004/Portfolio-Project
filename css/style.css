@@ -775,3 +775,108 @@ img {
         width: 100%;
     }
 }
+
+
+.completion-section {
+    background: linear-gradient(135deg, #241438, #39204F, #241438);
+    padding: 40px 45px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.completion-section h2 {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.completion-section > p {
+    color: #D8C6E9;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.completion-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #3A2452;
+    border: 1px solid #563B70;
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin: 12px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 750px;
+    transition: transform 0.25s, background-color 0.25s;
+}
+
+.completion-card:hover {
+    background: #493064;
+    transform: translateY(-3px);
+}
+
+.completion-card p {
+    margin: 0 50px;
+    text-align: left;
+    color: #E5D8F2;
+    font-size: 16px;
+    line-height: 1.7;
+    flex: 1;
+}
+
+.completion-label {
+    margin-left: 50px;
+    display: inline-block;
+    min-width: 110px;
+    padding: 9px 20px;
+    border-radius: 8px;
+    background: #A855F7;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.hero-label { background: #7C3AED; }
+.about-label { background: #6D28D9; }
+.skills-label { background: #8B5CF6; }
+.projects-label { background: #A855F7; }
+.education-label { background:#9333EA; }
+.contact-label { background: #7E22CE; }
+
+@media screen and (max-width: 600px) {
+    .completion-section {
+        width: 95%;
+        padding: 25px 12px;
+        margin: 30px auto;
+    }
+
+    .completion-section h2 {
+        font-size: 23px;
+    }
+
+    .completion-card {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+        padding: 16px;
+    }
+
+    .completion-label {
+        min-width: 100px;
+    }
+}
+
+.footer {
+    background: #241438;
+    color: #D8C6E9;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
